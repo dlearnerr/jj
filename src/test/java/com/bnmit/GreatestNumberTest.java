@@ -15,7 +15,7 @@ public class GreatestNumberTest {
     @Test
     public void testFindGreatestWhenSecondIsGreater() {
         GreatestNumber gn = new GreatestNumber();
-        assertEquals(50, gn.findGreatest(10, 50, 30));
+        assertEquals(50, gn.findGreatest(100, 50, 30));
     }
 
     @Test
