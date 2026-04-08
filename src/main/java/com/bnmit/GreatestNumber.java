@@ -18,7 +18,7 @@ public class GreatestNumber {
 
     public static void main(String[] args) {
         GreatestNumber gn = new GreatestNumber();
-        int a = 10, b = 25, c = 15;
+        int a = 100, b = 25, c = 15;
         int greatest = gn.findGreatest(a, b, c);
 
         System.out.println("The Greatest number among " + a + ", " + b + ", and " + c + " is: " + greatest);
